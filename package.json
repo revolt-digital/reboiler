@@ -1,0 +1,23 @@
+{
+    "name": "reboiler",
+    "version": "0.0.5",
+    "license": "MIT",
+    "private": false,
+    "author": "Fernando Munoz",
+    "description": "Revolt's boilerplate",
+    "repository": "git@github.com:revolt-digital/reboiler.git",
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "./bin/index.js",
+    "bin": {
+        "reboiler": "./bin/index.js"
+    },
+    "scripts": {
+        "start": "node ./bin/index.js"
+    },
+    "dependencies": {
+        "all-the-package-names": "^2.0.124",
+        "inquirer": "^7.0.0"
+    }
+}
